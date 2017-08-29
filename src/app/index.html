@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Hello World!</title>
+    <style>
+      #abc {
+        margin: 100px 100px;
+      }
+    </style>
+    <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+  </head>
+  <body id="content">
+      <!-- IP:<input type="text" id="textIp" value="jmnkhjk"><br/> -->
+      <!-- IP: <input type="text" id="textIp"><br/> -->
+      <p>stationIP: <input type="text" id="stationIP" value="http://127.0.0.1:3000"></p>
+      <p>cloudIP: <input type="text" id="cloudIP" value="http://10.10.9.59:4000"></p>
+      <button onclick="submitClick(document.getElementById('stationIP').value, document.getElementById('cloudIP').value)">确定</button>
+    <script src="js/index.js"></script>
+  </body>
+</html>
+
